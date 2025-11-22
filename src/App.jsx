@@ -28,7 +28,7 @@ export default function App() {
       <AddParticipantForm onAdded={handleAdd} />
       <ParticipantList participants={participants} onDelete={handleDelete} />
 
-      <button className="primary button" onClick={handleDraw}>
+      <button className="primary button mb" onClick={handleDraw}>
         Сформировать жеребьёвку
       </button>
 
