@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api" // порт твоего backend'а
+  baseURL: "https://draw-backend-5x3l.onrender.com/api"
 });
 
 export default api;

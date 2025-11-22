@@ -7,7 +7,7 @@ body {
 
 .container {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 40px auto 70px auto;
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -32,6 +32,7 @@ button {
 button.primary {
   background-color: #4b6ef5;
   color: white;
+  margin-bottom: 50px;
 }
 
 button.primary:hover {
